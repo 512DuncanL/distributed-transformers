@@ -1,0 +1,20 @@
+# Compiled binaries
+build_tokenizer
+tokenize
+train
+generate
+
+# Object files
+*.o
+
+# Generated tokenizer output
+tokenizer.bin
+
+# Model checkpoints
+ckpt.bin
+weights.bin
+
+# Dataset subfolder
+dataset/.venv/
+dataset/train.txt
+dataset/test.txt
